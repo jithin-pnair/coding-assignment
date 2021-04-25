@@ -69,9 +69,17 @@ export class ResourceConstants {
     'manageCollections.para': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, harum.',
     'manageCollections.image.name': 'Edit Album',
     'name.already exist.lable': 'Album Name already exists with the name - ',
-    'ok.button.lable': 'Ok'
+    'ok.button.lable': 'Ok',
 
-
+    // AUTHORPAGE CONSTANTS
+    'author.follwers.label': 'Follwers',
+    'author.following.label': 'Following',
+    'author.collections.label': 'Albums',
+    'author.nav.photos': 'Photos',
+    'author.nav.likes': 'Likes',
+    'author.nav.collections': 'Albums',
+    'author.link.active': 'linkActive',
+    'author.link.deactive': 'div_for_photos'
 
 
   };

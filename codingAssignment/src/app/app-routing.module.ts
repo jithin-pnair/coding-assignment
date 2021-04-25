@@ -10,7 +10,7 @@ const routes: Routes = [{
 },
 { path: 'home', loadChildren: () => import('./main/search-image/search-image.module').then(m => m.SearchImageModule) },
 { path: 'favourite', loadChildren: () => import('./main/favourite/favourite.module').then(m => m.FavouriteModule) },
-];
+{ path: 'author', loadChildren: () => import('./main/author/author.module').then(m => m.AuthorModule), canActivate: [AuthGuardService] }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
